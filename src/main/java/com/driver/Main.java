@@ -8,7 +8,7 @@ public class Main {
     System.out.println(p.product(5,4,2));
     System.out.println(p.product(5.0,4.0));
   }
-  
+}
   class Product{
     public int product(int x, int y) {
       return x*y;
@@ -21,4 +21,3 @@ public class Main {
       return x*y;
     }
   }
-}
